@@ -1,0 +1,29 @@
+    /* most low level resulation like galaxy fold */
+    
+    @media (min-widht: 279px) and (max-widht: 319px) {}
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+    
+    @media (min-width: 320px) and (max-width: 480px) {}
+    /* CSS */
+    /* *******************************************
+*****************global css start*******************
+ */
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        /* CSS */
+    }
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        /* css */
+    }
