@@ -6,7 +6,133 @@
   ##Screen = B/w 320px to 479px
 */
     
-    @media (min-width: 320px) and (max-width: 480px) {}
+    @media (min-width: 320px) and (max-width: 480px) {
+        .header .banner-part h1 {
+            font-size: 120px;
+            line-height: 130px;
+        }
+        .header .banner-part p {
+            width: 100%;
+            text-align: justify;
+            transform: translateX(0px);
+        }
+        .features {
+            padding: 20px 0px 50px;
+        }
+        .features .title h2 {
+            font-size: 100px;
+            line-height: 110px;
+        }
+        .features .title P {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-365px);
+        }
+        .statistic {
+            padding: 60px 0px 80px;
+        }
+        .statistic .title h2 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+        .menu-item {
+            padding: 30px 0px 50px;
+        }
+        .menu-item .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .menu-item .menu-part {
+            padding: 30px 0px 30px 10px;
+        }
+        .menu-item .title p {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-392px);
+        }
+        .menu-item .menu-part .menu-content p {
+            width: 100%;
+            text-align: justify;
+        }
+        .order-now {
+            padding: 120px 0px;
+        }
+        .order-now .right-side {
+            padding: 140px 0px 80px 90px;
+            margin: 0px 0px 0px 90px;
+        }
+        .order-now .right-side h2 {
+            font-size: 60px;
+            line-height: 70px;
+        }
+        .order-now .right-side p {
+            width: 70%;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: justify;
+        }
+        .order-now .right-side .btn-primary {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 12px 30px;
+            margin: 40px 0px 0px 20px;
+        }
+        .price-menu {
+            padding: 20px 0px 40px;
+        }
+        .price-menu .title h2 {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        .price-menu .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .testimonials {
+            padding: 100px 0px 150px;
+        }
+        .contact .title {
+            padding: 0px 0px 20px;
+        }
+        .contact .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .contact .contact-group {
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 40px;
+        }
+        .contact .contact-group .btn-primary {
+            transform: translate(-40px);
+        }
+        .contact .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .footer {
+            padding: 40px 0px;
+        }
+        .footer .footer-right-side h3 {
+            text-align: center;
+        }
+        .footer .footer-right-side p {
+            text-align: justify;
+        }
+        .footer .footer-left-side {
+            padding: 40px 0px 0px 130px;
+        }
+        .footer .footer-left-side .social-icons {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul li {
+            display: inline-block;
+            margin: 0px 10px 0px 0px;
+        }
+    }
     /* CSS */
     /* *******************************************
 *****************global css start*******************
@@ -18,6 +144,134 @@
     
     @media (min-width: 481px) and (max-width: 767px) {
         /* CSS */
+        .header .banner-part h1 {
+            font-size: 120px;
+            line-height: 130px;
+        }
+        .header .banner-part p {
+            text-align: justify;
+            width: 80%;
+            transform: translateX(60px);
+        }
+        .features {
+            padding: 20px 0px 50px;
+        }
+        .features .title h2 {
+            font-size: 100px;
+            line-height: 110px;
+        }
+        .features .title P {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-365px);
+        }
+        .statistic {
+            padding: 60px 0px 80px;
+        }
+        .statistic .title h2 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+        .statistic .counting {
+            margin: 50px 0px 0px 100px;
+        }
+        .menu-item {
+            padding: 30px 0px 50px;
+        }
+        .menu-item .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .menu-item .menu-part {
+            padding: 30px 0px 30px 10px;
+        }
+        .menu-item .title p {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-392px);
+        }
+        .menu-item .menu-part .menu-content p {
+            width: 100%;
+            text-align: justify;
+        }
+        .order-now {
+            padding: 120px 0px;
+        }
+        .order-now .right-side {
+            padding: 140px 0px 80px 178px;
+            margin: 0px 0px 0px 90px;
+        }
+        .order-now .right-side h2 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .order-now .right-side p {
+            width: 70%;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: justify;
+        }
+        .order-now .right-side .btn-primary {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 12px 30px;
+            margin: 40px 0px 0px 40px;
+        }
+        .price-menu {
+            padding: 20px 0px 40px;
+        }
+        .price-menu .title h2 {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        .price-menu .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .testimonials {
+            padding: 100px 0px 150px;
+        }
+        .contact .title {
+            padding: 0px 0px 20px;
+        }
+        .contact .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .contact .contact-group {
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 40px;
+        }
+        .contact .contact-group .btn-primary {
+            transform: translate(-40px);
+        }
+        .contact .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .footer {
+            padding: 40px 0px;
+        }
+        .footer .footer-right-side h3 {
+            text-align: center;
+        }
+        .footer .footer-right-side p {
+            text-align: justify;
+        }
+        .footer .footer-left-side {
+            padding: 40px 0px 0px 130px;
+        }
+        .footer .footer-left-side .social-icons {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul li {
+            display: inline-block;
+            margin: 0px 10px 0px 0px;
+        }
     }
     /* 
   ##Device = Tablets, Ipads (portrait)
@@ -26,4 +280,124 @@
     
     @media (min-width: 768px) and (max-width: 1024px) {
         /* css */
+        .header .banner-part h1 {
+            font-size: 120px;
+            line-height: 130px;
+        }
+        .header .banner-part p {
+            text-align: justify;
+            width: 80%;
+            transform: translateX(60px);
+        }
+        .features {
+            padding: 20px 0px 50px;
+        }
+        .features .title h2 {
+            font-size: 100px;
+            line-height: 110px;
+        }
+        .features .title P {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-365px);
+        }
+        .statistic .counting {
+            margin: 50px 0px 0px 150px;
+        }
+        .statistic {
+            padding: 60px 0px 80px;
+        }
+        .statistic .title h2 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+        .menu-item {
+            padding: 30px 0px 50px;
+        }
+        .menu-item .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .menu-item .menu-part {
+            padding: 30px 0px 30px 10px;
+        }
+        .menu-item .title p {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-392px);
+        }
+        .menu-item .menu-part .menu-content p {
+            width: 100%;
+            text-align: justify;
+        }
+        .order-now {
+            padding: 120px 0px;
+        }
+        .order-now .right-side {
+            padding: 140px 0px 80px 350px;
+            margin: 0px 0px 0px 90px;
+        }
+        .order-now .right-side h2 {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        .order-now .right-side p {
+            width: 100%;
+            font-size: 17px;
+            line-height: 27px;
+            text-align: justify;
+        }
+        .order-now .right-side .btn-primary {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 12px 30px;
+            margin: 40px 0px 0px 80px;
+        }
+        .price-menu {
+            padding: 20px 0px 40px;
+        }
+        .price-menu .title h2 {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        .price-menu .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .testimonials {
+            padding: 100px 0px 150px;
+        }
+        .contact .title {
+            padding: 0px 0px 20px;
+        }
+        .contact .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .contact .contact-group {
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 40px;
+        }
+        .contact .contact-group .btn-primary {
+            transform: translate(-40px);
+        }
+        .contact .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .footer {
+            padding: 40px 0px;
+        }
+        .footer .footer-right-side h3 {
+            text-align: center;
+        }
+        .footer .footer-right-side p {
+            text-align: justify;
+        }
+        .footer .footer-left-side {
+            padding: 40px 0px 0px 130px;
+        }
+        .footer .footer-left-side .social-icons {
+            padding: 20px 0px 0px 0px;
+        }
     }
