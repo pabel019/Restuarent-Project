@@ -58,15 +58,15 @@
             padding: 120px 0px;
         }
         .order-now .right-side {
-            padding: 140px 0px 80px 90px;
+            padding: 140px 0px 80px 67px;
             margin: 0px 0px 0px 90px;
         }
         .order-now .right-side h2 {
-            font-size: 60px;
-            line-height: 70px;
+            font-size: 30px;
+            line-height: 40px;
         }
         .order-now .right-side p {
-            width: 70%;
+            width: 60%;
             font-size: 15px;
             line-height: 25px;
             text-align: justify;
@@ -75,7 +75,7 @@
             font-size: 16px;
             line-height: 26px;
             padding: 12px 30px;
-            margin: 40px 0px 0px 20px;
+            margin: 40px 0px 0px 10px;
         }
         .price-menu {
             padding: 20px 0px 40px;
@@ -103,6 +103,7 @@
             padding: 0px 0px 40px;
         }
         .contact .contact-group .btn-primary {
+            padding: 12px 30px;
             transform: translate(-40px);
         }
         .contact .title p {
@@ -198,12 +199,12 @@
             padding: 120px 0px;
         }
         .order-now .right-side {
-            padding: 140px 0px 80px 178px;
+            padding: 140px 0px 80px 148px;
             margin: 0px 0px 0px 90px;
         }
         .order-now .right-side h2 {
-            font-size: 50px;
-            line-height: 60px;
+            font-size: 40px;
+            line-height: 50px;
         }
         .order-now .right-side p {
             width: 70%;
