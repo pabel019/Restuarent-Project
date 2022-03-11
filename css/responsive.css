@@ -1,12 +1,145 @@
     /* most low level resulation like galaxy fold */
     
-    @media (min-widht: 279px) and (max-widht: 319px) {}
+    @media (min-widht: 279px) and (max-widht: 319px) {
+        body {
+            overflow-x: hidden;
+        }
+        .header .banner-part h1 {
+            font-size: 120px;
+            line-height: 130px;
+        }
+        .header .banner-part p {
+            width: 100%;
+            text-align: justify;
+            transform: translateX(0px);
+        }
+        .features {
+            padding: 20px 0px 50px;
+        }
+        .features .title h2 {
+            font-size: 100px;
+            line-height: 110px;
+        }
+        .features .title P {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-365px);
+        }
+        .statistic {
+            padding: 60px 0px 80px;
+        }
+        .statistic .title h2 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+        .menu-item {
+            padding: 30px 0px 50px;
+        }
+        .menu-item .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .menu-item .menu-part {
+            padding: 30px 0px 30px 10px;
+        }
+        .menu-item .title p {
+            text-align: justify;
+            width: 100%;
+            transform: translateX(-392px);
+        }
+        .menu-item .menu-part .menu-content p {
+            width: 100%;
+            text-align: justify;
+        }
+        .order-now {
+            padding: 120px 0px;
+        }
+        .order-now .right-side {
+            padding: 140px 0px 80px 67px;
+            margin: 0px 0px 0px 90px;
+        }
+        .order-now .right-side h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .order-now .right-side p {
+            width: 60%;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: justify;
+        }
+        .order-now .right-side .btn-primary {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 12px 30px;
+            margin: 40px 0px 0px 10px;
+        }
+        .price-menu {
+            padding: 20px 0px 40px;
+        }
+        .price-menu .title h2 {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        .price-menu .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .testimonials {
+            padding: 100px 0px 150px;
+        }
+        .contact .title {
+            padding: 0px 0px 20px;
+        }
+        .contact .title h2 {
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .contact .contact-group {
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 40px;
+        }
+        .contact .contact-group .btn-primary {
+            padding: 12px 30px;
+            transform: translate(-40px);
+        }
+        .contact .title p {
+            width: 100%;
+            transform: translateX(-0px);
+        }
+        .footer {
+            padding: 40px 0px;
+        }
+        .footer .footer-right-side h3 {
+            text-align: center;
+        }
+        .footer .footer-right-side p {
+            text-align: justify;
+        }
+        .footer .footer-left-side {
+            padding: 40px 0px 0px 130px;
+        }
+        .footer .footer-left-side .social-icons {
+            padding: 20px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+        }
+        .footer .footer-left-side .social-icons ul li {
+            display: inline-block;
+            margin: 0px 10px 0px 0px;
+        }
+    }
     /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
     
     @media (min-width: 320px) and (max-width: 480px) {
+        body {
+            overflow-x: hidden;
+        }
         .header .banner-part h1 {
             font-size: 120px;
             line-height: 130px;
@@ -145,6 +278,9 @@
     
     @media (min-width: 481px) and (max-width: 767px) {
         /* CSS */
+        body {
+            overflow-x: hidden;
+        }
         .header .banner-part h1 {
             font-size: 120px;
             line-height: 130px;
@@ -281,6 +417,9 @@
     
     @media (min-width: 768px) and (max-width: 1024px) {
         /* css */
+        body {
+            overflow-x: hidden;
+        }
         .header .banner-part h1 {
             font-size: 120px;
             line-height: 130px;
@@ -335,7 +474,7 @@
             padding: 120px 0px;
         }
         .order-now .right-side {
-            padding: 140px 0px 80px 350px;
+            padding: 140px 0px 80px 280px;
             margin: 0px 0px 0px 90px;
         }
         .order-now .right-side h2 {
